@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NIDS Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Network Intrusion Detection System</h1>
+    <div class="status">
+      <h2>Status: <span id="status">Monitoring...</span></h2>
+    </div>
+    <div class="packets">
+      <h2>Live Packet Feed</h2>
+      <ul id="packet-list"></ul>
+    </div>
+    <div class="alerts">
+      <h2>Alerts</h2>
+      <ul id="alert-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
